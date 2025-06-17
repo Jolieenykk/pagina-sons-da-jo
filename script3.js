@@ -7,7 +7,8 @@ function tocaSom(idElementoAudio) {
 function mostrarImagem(idImagem){
     const imagem= document.querySelector("img");
     const nomeImagem = idImagem.replace("#som_tecla_","");
-    imagem.src= `./images/${nomeImagem}.jpg`;
+    imagem.src= `../images/${nomeImagem}.jpg`;
+
 }
 
 
